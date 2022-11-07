@@ -1,0 +1,18 @@
+/*selectores*/
+*{
+    border: 1px solid blue;
+}
+body{
+background-color:bisque;
+}
+.b-green{
+    border: 2px solid green;
+}
+.txt-aqua{
+    color: aqua;
+    font-size: 32px;
+}
+#b-red{
+border: 2px solid red;
+}
+/*algunas propiedades*/
