@@ -1,0 +1,29 @@
+.mi-clase {
+  color: blueviolet;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: solid greenyellow;
+  }
+  
+  .ff-serif {
+    font-family: serif;
+  }
+  
+  .ff-sans-serif {
+    font-family: sans-serif;
+  }
+
+  .ff-monospace {
+    font-family: monospace;
+  }
+  
+  .color-blue {
+    color: blue;
+    text-decoration: underline;
+    text-indent: 4px;
+  }
+  
