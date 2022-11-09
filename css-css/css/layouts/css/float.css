@@ -1,0 +1,43 @@
+body{
+    width: 1024px;
+    height: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightslategray;
+    border: 2px solid black;
+
+}
+header,
+nav,
+main,
+aside,
+footer{
+    background-color: bisque;
+    color: brown;
+    border: 2px solid white;
+    text-align: center;
+}
+   header{
+    height: 80px;
+    line-height: 80px;
+}
+nav{
+    height: 40px;
+    line-height: 40px;
+}
+main, aside{
+    height: 340px;
+    line-height: 340px;
+    float: left;
+}
+main{
+    width: 800px;
+}
+aside{
+    width: 220px;
+}
+footer{
+    height: 32px;
+    line-height: 32px;
+    clear: both;
+}

@@ -1,0 +1,33 @@
+.div-padre{
+    background-color: beige;
+    border: 2px solid black;
+    color: brown;
+}
+.span1{
+    display: block;
+}
+.div1,
+.span1{
+    width: 50px;
+    height: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    padding: 6px;
+}
+.div2{
+    width: 50px;
+    height: 50px;
+    border: 2px double green;
+    margin: 8px;
+}
+.span2{
+    display: inline-block;
+    border: 4px solid fuchsia;
+    padding: 8px;
+    margin: 8px;
+}
