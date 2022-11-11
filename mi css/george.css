@@ -1,29 +1,34 @@
 *{
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 body{
-    background-color: aquamarine;
     width: 1024px;
     height: 512px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid blue;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 16px;
     display: flex;
     flex-wrap: wrap;
 }
-header,nav,main,aside,footer{
-    background-color: bisque;
-    color: black;
+header,
+nav,
+.main,
+aside,
+footer{
+    background-color:wheat;
+    color: brown;
+    border: 2px solid blue;
+    border-radius: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-header,nav,footer{
-    width: 1024;
-}
-main,aside{
-    height: 340px;
+header,
+nav,
+footer{
+    width: 1024px;
 }
 header{
     height: 88px;
@@ -31,20 +36,19 @@ header{
 nav{
     height: 48px;
 }
-main{
-width: 800px;
+.main,
+aside{
+    height: 340px;
 }
- aside{
+.main{
+    width: 800px;
+}
+aside{
     width: 220px;
- }
- footer{
-    height: 32px;
- }
- .img{
-    height: 50px;
-    width: 50px;
- }
- .img2{
-    height: 100px;
-    width: 100px;
- }
+}
+.nav{
+
+}
+.img2{
+    
+}
