@@ -3,7 +3,6 @@
 }
 body{
     width: 1024px;
-    height: 512px;
     margin-left: auto;
     margin-right: auto;
     background-color: beige;
@@ -14,16 +13,13 @@ body{
 }
 header,
 nav,
-.main,
+main,
 aside,
 footer{
-    background-color:wheat;
+    background-color:aliceblue;
     color: brown;
     border: 2px solid blue;
     border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 header,
 nav,
@@ -31,24 +27,23 @@ footer{
     width: 1024px;
 }
 header{
-    height: 88px;
+    
 }
 nav{
-    height: 48px;
+    
 }
-.main,
+main,
 aside{
-    height: 340px;
 }
-.main{
+main{
     width: 800px;
+    font-size: 10px;
 }
 aside{
     width: 220px;
 }
-.nav{
-
-}
 .img2{
-    
+    height: 110px;
+    width: 110px;
+    border-radius: 8px;
 }

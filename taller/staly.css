@@ -1,0 +1,22 @@
+h1{
+    color: rgb(100, 50, 178);
+    font-size: 4em;
+}
+.color1{
+    font-size: 2em;
+    background-color:#FF8FB1 ;
+    font-family: 'PT Serif', serif;
+    color:#FFFFFF ;
+}
+.color2{
+    font-size: 2em;
+    background-color:#6C4AB6 ;
+    font-family: 'Roboto', sans-serif;
+    color:#FFFFFF;
+}
+.color3{
+    font-size: 2em;
+    background-color:#3A8891 ;
+    font-family: 'Xanh Mono', monospace;
+    color: #FFFFFF;
+}
