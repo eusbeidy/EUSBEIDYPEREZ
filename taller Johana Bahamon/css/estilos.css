@@ -1,5 +1,10 @@
 body{
-    background-color: #5a5757;
+    background-color: #FFDDD2;
+}
+header{
+    width: 200px;
+    height: 80px;
+    border:2px solid black;
 }
 a{
     color: #eff1f7;
@@ -11,17 +16,25 @@ a:hover{
 }
 h1{
     font-family: 'Pacifico', cursive;
-    font-size: 20px;
-    color: #02050c;
-    padding: 20px;
+    font-size: 22px;
+    color: #06283D;
+    padding: 5px;
+}
+.Actriz{
+    font-size: 10px;
+    text-align: left;
+
 }
 .menu-btn{
 position: absolute;
 top: 1rem;
 right: 1rem;
-padding-right: 40px;
 color: black;
-cursor: cell;
+background-color: #B2B2B2;
+padding: 10px;
+width: 70px;
+height: 65px;
+float: left;
 }
 .menu-check{
     display: none;
