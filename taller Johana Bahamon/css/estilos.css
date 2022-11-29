@@ -126,4 +126,7 @@ footer{
     footer{
         width: 100%;
     }
+    .figure{
+        flex-direction: column;
+    }
 }
