@@ -71,24 +71,79 @@ document.write ('el resultado de', nmr1, '*', nmr2, '=', resultado);*/
  document.write ('resultado', !resultado); */
 
  //TALLER
- let edad = parseInt(prompt('Ingresa tu edad'));
+ /*let edad = parseInt(prompt('Ingresa tu edad'));
  let resultado = edad === 18;
- document.write('su edad es ${edad}')
+ document.write('su edad es,${edad}')
  console.log(resultado)
  document.write('<br>')
 
  let nombre = prompt('Ingresa tu nombre');
  let pepita = 'pepita'; 
  resultado = nombre === pepita;
- document.write('su nombre es ${nombre}');
+ document.write('su nombre es, ${nombre}');
  console.log(resultado);
 
- /*let numero =prompt('igresa un numero')
+ let numero =prompt('igresa un numero')
  console.log(typeof numero);
  numero = Number(numero)
  document.write(numero)*/
 
 
+ //estructura de control
+  //if (condition) {}
+
+  /*let variable = 'pepita'
+
+  if (condition === pepita) {
+    console.log('si, se cumple la condicion')
+    console.log('te llamas pepita!')  
+}*/
+
+//
+
+/*let variable = 'pepita';
+
+if (condition === 'pepita') {
+    console.log('si, se cumple la condicion')
+    console.log('te llamas pepita!')  
+} else {
+    console.log('no, se cumple la condicion')
+    console.log('no llamas pepita!')  
+}*/
+
+//ejercicio
+
+/*let nombre = prompt('Ingresa nombre');
+alert('Bienvenido' + nombre);*/
+
+
+//let variable = 5
+
+/*if (condition === 1) {
+    console.log('eres el primero');
+
+} else  if (variable === 2) {
+    console.log('eres el segundo');
+} else {
+    console.log("no eres el nmr1 el primero nmr1 el segundo");
+}*/
+
+/*const color = 'negro'
+switch (color) {
+    case 'negro':
+        console.log('pintar el carrito negro');
+        break;
+        case 'azul':
+        console.log('pintar el carrito azul');
+        break;
+        
+        default:
+        console.log('pintar el carro de blanco');
+        break;
+}*/
+
+
+    
 
 
 
