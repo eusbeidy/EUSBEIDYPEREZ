@@ -62,3 +62,55 @@ switch (destino) {
         console.log('Ingresa a la sala #4')
         break;
 }*/
+
+//EJERCICIO  CON FUNCIONES día 2/12/22
+//pedir nombre al usuario y saludarlo
+
+/*function saludo() {
+    let nombre = prompt('Escribe tu Nombre');
+    if (nombre === null) {
+        alert('No se escribio ningun nombre.');
+    }else{
+        alert('Hola,' + nombre);
+    }
+    alert('hola, Bienvenido,' + nombre);
+}
+ saludo();
+*/
+
+// PEDIR EDAD AL USUARIO Y RESPONDER SI ES O NO ES MAYOR DE EDAD
+
+/*function mayorDeEdad() {
+    let edad = Number(prompt('Ingrese su edad'));
+   edad >= 18 ? alert('Eres mayor de edad') : alert('Eres menor de edad');
+ }
+
+mayorDeEdad();*/
+
+// PEDIR NOMBRE Y EDAD AL USUARIO. SI SE LLAMA PEPITA E
+//Y ES MAYOR DE EDAD PERMITIR INGRESO A LA SALA DE ESPERA #1.
+//SI SE LLAMA PEPITA Y ES MENOR DE EDAD PERMITIR INGRESO A LA SALA #2
+//SI NO ES PEPITA PERO ES MAYOR DE EDADA INGRESO A LA SALA #3
+//SI NO SE LLAMA PEPITA Y NO ES MAYOR DE EDAD DIRIGIR A LA SALA #4
+
+
+function nombreYedad() {
+    let Nombre= prompt('Ingrese su Nombre');
+    let Edad = Number(prompt('Ingrese su Edad'));
+    
+
+    if (Nombre === 'Pepita' && Edad >= 18){
+        alert('Ingresa a la sala #1');
+    }else if (Nombre === 'Pepita' && Edad <= 18){
+        alert('Ingresa a la sala #2');
+    }else if (Nombre != 'Pepita' && Edad >= 18) {
+        alert('Ingresa a la sala #3');
+    } else{
+        alert('ingresa a la sala de espera #4');
+    }
+}
+nombreYedad();
+    
+
+
+

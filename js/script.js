@@ -142,6 +142,57 @@ switch (color) {
         break;
 }*/
 
+//CICLOS
+
+/*for ( let i = 0; i < 4; i++){
+    console.log(i)
+}*/
+
+/*for ( let i = 0; i < 10; i++){
+    console.log(i)
+}*/
+
+//otro ciclo while
+
+/*let i = 0;
+while (i < 4) {
+   console.log(i + 1);
+    i++;
+}*/
+
+//otro ciclo
+
+/*let i = 0;
+
+do {
+    console.log(i);
+    i++;
+} while (i < 4);*/
+
+// EJEMPLO
+
+/*let continuar = 'true'
+
+do {
+    continuar = confirm('quieres seguir jugando?');
+    console.log('estoy jugando');
+} while (continuar === true);*/
+
+// FUNCIONES
+
+/*function miFuncionSinParametros() {
+    console.log('hola soy una funcion sin parametros');
+}
+miFuncionSinParametros();*/
+
+/*function miFuncionConParametros(parametros) {
+    console.log('hola soy una funcion con parametros, parametros:',parametros);
+}
+
+miFuncionConParametros(10);*/
+
+
+
 
     
 
