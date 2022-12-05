@@ -94,7 +94,7 @@ mayorDeEdad();*/
 //SI NO SE LLAMA PEPITA Y NO ES MAYOR DE EDAD DIRIGIR A LA SALA #4
 
 
-function nombreYedad() {
+/*function nombreYedad() {
     let Nombre= prompt('Ingrese su Nombre');
     let Edad = Number(prompt('Ingrese su Edad'));
     
@@ -109,8 +109,90 @@ function nombreYedad() {
         alert('ingresa a la sala de espera #4');
     }
 }
-nombreYedad();
+nombreYedad();*/
+
+// Pedir un número y mostrar los números pares desde 1 hasta n.
+/*function multiplosDeDos() {
+    const numero = parseInt(prompt('Ingresa un número'));
+    let pares = '';
+    for (let i = 1; i <= numero; i++) {
+      if (i % 2 === 0) {
+        pares += i + ', ';
+      }
+    }
+    alert(`Los números pares desde 1 hasta ${numero}, son: ${pares}`);
+}*/
+
+
+
+// MULTIPLOS DE DOS 
+
+//1-Pedir un número, mostrar el doble de n.
+
+/*function doble() {
+    const nmr = parseInt(prompt('Ingresa un número'));
+    const resultado = nmr + nmr;
+   alert(`el doble de ${nmr}, es, ${resultado} `);
     
+    }
+    doble();*/
+
+ // Pedir un número, mostrar el triple de n.
+ /*function tripleDen() {
+    const nmr3 = parseInt(prompt('Ingresa un número'));
+    const resultado = parseInt( nmr3 * 3);
+    alert(`el triple de ${nmr3}, es ${resultado}`);
+ }
+ tripleDen();*/
+
+ // Pedir un número, mostrar la mitad de n.
+ /*function mitadDeNumero() {
+    const mitadNmr = parseInt(prompt('Ingresa un numero'));
+    const resultado = parseInt( mitadNmr / 2);
+    alert(`la mitad de ${mitadNmr}, es, ${resultado}`);
+ }
+ mitadDeNumero();*/
+
+ // Pedir un número, mostrar la tercera parte de n.
+
+ /*function terceraParteNumero() {
+    const numero = parseInt(prompt('Ingrese un numero'));
+    const resultado = parseInt( numero / 3);
+    alert(`la tercera parte de ${numero} es ${resultado}`);
+ }
+ terceraParteNumero();*/
+
+
+ // Pedir un número, mostrar el cuadrado de n.
+
+// Pedir un número, mostrar n reducido en 5.
+ function reducidoDeCinco() {
+    let reducido = parseInt(prompt('Ingresa un numero'));
+     for (let i = 0; i = reducido ; i++) {
+        
+         }
+
+ }
+
+// Pedir un número, mostrar el doble de n más 4.
+// Pedir un número, mostrar si es positivo, negativo o si es cero.
+// Pedir un número, mostrar si es par, impar o si es cero.
+// Pedir un número, mostrar si es un número primo o no.
+// Pedir dos números, mostrar la suma.
+// Pedir dos números, mostrar la resta.
+// Pedir dos números, mostrar la multiplicación.
+// Pedir dos números, mostrar la división.
+// Pedir dos números, mostrar el resto de la división.
+// Pedir dos números, mostrar si el primer número es divisible por el segundo.
+// Pedir dos números y el nombre de una operación, mostrar el resultado.
+// Pedir un número, mostrar la suma total desde 1 hasta n.
+// Pedir un número, mostrar la suma de los números pares desde 1 hasta n.
+// Pedir un número, mostrar la suma de los números impares desde 1 hasta n.
+// Pedir un número, mostrar multiplos de 3 desde 1 hasta n.
+// Pedir un número, mostrar los números desde n hasta 0.
+
+
+     
 
 
 
