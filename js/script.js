@@ -191,6 +191,23 @@ miFuncionSinParametros();*/
 
 miFuncionConParametros(10);*/
 
+// Array, ARREGLO, VECTOR.
+
+
+//EJEMPLO.....
+
+/*const usuario = {
+    nombre: null, 
+    contraseña: null,
+};
+console.log(usuario);*/
+
+//onsole.log(window);
+
+//
+
+
+
 
 
 
